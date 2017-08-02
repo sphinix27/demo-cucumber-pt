@@ -19,7 +19,6 @@ public class WebDriverHooks {
 
     @Before
     public void startDriver() throws Exception {
-        helper.currentDriver = "FirefoxDriver";
         driver = "======================================\n"
                 + "Opening the browser...\n";
         System.out.println(driver);
